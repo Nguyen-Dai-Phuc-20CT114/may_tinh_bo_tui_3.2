@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+<div id="container">
+
+
+
+
+    <div id="name" onclick="anName()">
+        This is super calculator
+    </div>
+
+
+    <div id="header" onclick="hienName()"> History</div>
+    <div id="content"></div>
+
+
+    <div id="result">
+        <input type="text" name="result" id="ketQua" readonly>
+        <input type="text" name="operator" id="toanTu" readonly>
+        <input type="text" name="result" id="bien" readonly>
+
+    </div>
+
+
+    <div id="keyBoard">
+        <div class="button" onclick="operator('+')">+</div>
+        <div class="button" onclick="operator('-')">-</div>
+        <div class="button" onclick="operator('*')">*</div>
+        <div class="button" onclick="operator('/')">/</div>
+    
+    
+        <div class="number" onclick="num('1')">1</div>
+        <div class="number" onclick="num('2')">2</div>
+        <div class="number" onclick="num('3')">3</div>
+        <div class="number" onclick="num('4')">4</div>
+        <div class="number" onclick="num('5')">5</div>
+        <div class="number" onclick="num('6')">6</div>
+        <div class="number" onclick="num('7')">7</div>
+        <div class="number" onclick="num('8')">8</div>
+        <div class="number" onclick="num('9')">9</div>
+        <div class="number" onclick="num('0')">0</div>
+    
+    
+        <div id="backspace" onclick="erase('erase')">&lt;=</div>
+    
+    
+        <div id="AC" onclick="eraseAll()">AC</div>
+    
+    
+        <div id="equal" onclick="finish()">=</div>
+    
+    
+        <div id="dot" onclick="num('.')">.</div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="./js/main.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
